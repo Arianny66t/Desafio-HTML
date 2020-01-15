@@ -1,0 +1,237 @@
+body{
+  margin-bottom: 60px;
+  margin: 0px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.banner-index{
+  background-size: contain;
+  background-repeat: round;
+  position: relative;
+}
+
+.banner-about{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  position: relative;
+}
+
+header {
+  padding: 5px 0px;
+	width:100%;
+	overflow:hidden;
+	background:#080808;
+}
+footer {
+  width: 100%;
+	overflow:hidden;
+	background:#080808;
+}
+
+.container {
+	width:90%;
+	max-width:1000px;
+	margin:auto;
+	overflow:hidden;
+}
+
+header .logo {
+  margin-left: 10px;
+	color:#f2f2f2;
+	font-size:35px;
+	float:left;
+}
+
+header nav {
+  float:right;
+}
+
+footer div {
+  text-align: center;
+  line-height:60px;
+  color: white;
+  font-size: 20px;
+}
+
+header nav a {
+	display:inline-block;
+	color:#fff;
+	text-decoration:none;
+	padding:12px 20px;
+	line-height:normal;
+	font-size:20px;
+	font-weight:500;
+}
+
+header nav a:hover {
+  transition:         .3s ease-in;
+  background: #ffffff;
+  color: black;
+} 
+
+.slider{
+  width: 100%;
+}
+
+.body{
+  width: 100%;
+  min-height: 84vh;
+  background: white;
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.center{
+  display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.slider .portada{
+  display:block;
+  margin:auto;
+  width:850px;
+}
+
+img.arana{
+  width: 500px !important;
+}
+
+.cuadro{
+  width: 300px;
+  margin: 10px;
+  background: rgba(238, 238, 238, 0.35);
+  color: black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgba(0,0,0, 0.35);
+}
+.cuadro-des{
+  padding: 10px;
+  text-align: justify;
+}
+.cuadro-titulo{
+  text-transform: uppercase;
+  text-align: center;
+}
+.cuadro-img{
+  width: 100%;
+  height: 255px;
+  border-radius: 15px;
+}
+h4{
+  margin: 10px 0px !important;
+}
+
+.card-container{
+  padding: 20px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.card {
+  background-color: #EEEEEE;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  transition:         .3s ease-in;
+  width: 300px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.about-container{
+  padding: 20px;
+  display: flex;
+  justify-content:space-between;
+}
+
+.abouts{
+  background-color: #EEEEEE;
+  margin-top: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  width: 25%;
+  padding: 0 15px;
+  border-radius: 10px;
+  transition:         .3s ease-in;
+}
+
+.abouts:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-img{
+  margin-left: 30px;
+  display: inline-block;
+}
+
+.ContactContainer{
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  transform: translate(-50%, -50%);
+}
+
+.indexContainer {
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.indexTitle {
+  font-size: 40px;
+}
+
+.ContactFacebook,
+.ContactInstagram,
+.ContactWhatsapp {
+  margin: 0px 15px;
+  padding-bottom: 16px;
+  width: 30%;
+  text-align: center;
+  transition:         .3s ease-in;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.ContactFacebook:hover,
+.ContactInstagram:hover,
+.ContactWhatsapp:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+}
+
+footer {
+  background-color: black;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.QuienesSomosTitle,
+.contactoTitle {
+  margin-left: 15px;
+}
